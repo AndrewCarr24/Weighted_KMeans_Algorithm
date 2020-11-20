@@ -55,7 +55,7 @@ def get_potential_weights(data, simplex, alpha = 3/16, num_clusters = 3, first =
         
         return np.dot(x_new, betas)
     
-    # Iris dimensions 
+    # Storing dimensions 
     n = data.shape[0]
     m = data.shape[1]
 
